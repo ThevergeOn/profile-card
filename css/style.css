@@ -1,0 +1,93 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("/img/bg-pattern-top.svg"),
+    url("/img/bg-pattern-bottom.svg");
+  background-position: right 52vw bottom 30vh, 48vw 50vh;
+  background-repeat: no-repeat;
+}
+.card-container {
+  background-color: white;
+  border-radius: 15px;
+}
+.top-image-card {
+  border-radius: 15px 15px 0 0;
+}
+.victor-pic {
+  display: block;
+  position: relative;
+  bottom: 3rem;
+  border: solid white 0.3rem;
+  border-radius: 100px;
+  margin: auto;
+}
+
+.nameAgeLoc {
+  margin-top: -80px;
+}
+.name {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+  top: 3rem;
+  right: 1rem;
+}
+.age {
+  color: hsl(0, 0%, 59%);
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  left: 3.5rem;
+  top: 0.6rem;
+}
+.location {
+  color: hsl(0, 0%, 59%);
+  font-size: 15px;
+  font-weight: 400;
+  position: relative;
+  line-height: 2;
+}
+.bottom {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  position: relative;
+}
+.statsNumber {
+  color: hsl(229, 23%, 23%);
+  font-size: 18px;
+  font-weight: 700;
+}
+.statsName {
+  color: hsl(0, 0%, 59%);
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+}
+hr {
+  border-top: 0.25px solid hsl(0, 0%, 59%);
+  border-bottom: none;
+  background: transparent;
+}
+.attribution {
+  color: lavender;
+  margin-top: 20px;
+  font-size: 13px;
+}
+.attribution a {
+  color: lavender;
+  text-decoration: none;
+}
+a:hover {
+  color: lime;
+  text-decoration: underline;
+}
